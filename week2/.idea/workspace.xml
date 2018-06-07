@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/services/data.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
@@ -48,11 +48,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav-bar.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/nav-bar/nav-bar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="problem-list.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/problem-list/problem-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,6 +110,8 @@
         <option value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/services/data.service.ts" />
         <option value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.html" />
         <option value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.ts" />
+        <option value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/nav-bar/nav-bar.component.html" />
       </list>
     </option>
   </component>
@@ -103,9 +125,9 @@
     <handled-path value="$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
+    <option name="x" value="-93" />
     <option name="y" value="22" />
-    <option name="width" value="961" />
+    <option name="width" value="991" />
     <option name="height" value="628" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -190,6 +212,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="nav-bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week2" type="462c0819:PsiDirectoryNode" />
+              <item name="collabortative_coding_editing_judging_system" type="462c0819:PsiDirectoryNode" />
+              <item name="CEJ-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="new-problem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,19 +282,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528396001351</updated>
-      <workItem from="1528396004977" duration="4134000" />
+      <workItem from="1528396004977" duration="4875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4134000" />
+    <option name="totallyTimeSpent" value="4875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="22" width="961" height="628" extended-state="0" />
+    <frame x="-93" y="22" width="991" height="628" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23297872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2257732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -313,7 +345,7 @@
     <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/problem-list/problem-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -321,7 +353,7 @@
     <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -329,7 +361,7 @@
     <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/new-problem/new-problem.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
@@ -343,6 +375,22 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collabortative_coding_editing_judging_system/CEJ-client/src/app/components/nav-bar/nav-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
