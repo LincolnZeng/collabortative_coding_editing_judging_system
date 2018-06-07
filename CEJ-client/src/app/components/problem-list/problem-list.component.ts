@@ -1,8 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {Problem} from "../../models/problem.model";
-
-
-
 @Component({
   selector: 'app-problem-list',
   templateUrl: './problem-list.component.html',
