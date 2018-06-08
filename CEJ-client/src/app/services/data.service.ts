@@ -10,7 +10,6 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class DataService {
 
-  problems: Problem[] = PROBLEMS;
   private problemsSource = new BehaviorSubject<Problem[]>([]);
 
   constructor(private http: Http) { }
