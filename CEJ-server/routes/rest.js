@@ -20,7 +20,7 @@ router.post("/problems", jsonParser, function (req, res) {
         .then(function (problem) {
             res.json(problem);
         }, function (error) {
-            res.status(400).senc("Problem name already exist(rest.js)!");
+            res.status(400).send("Problem name already exist(rest.js)!");
         });
 });
 
