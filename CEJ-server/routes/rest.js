@@ -1,7 +1,7 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 var problemService = require("../services/problemService");
-var bodyParser = require('body-parser');
+var bodyParser = require("body-parser");
 var jsonParser = bodyParser.json();
 
 router.get("/problems", function (req, res) {
@@ -20,7 +20,7 @@ router.post("/problems", jsonParser, function (req, res) {
         .then(function (problem) {
             res.json(problem);
         }, function (error) {
-            res.status(400).senc("Problem name already exist(rest.js)!");
+            res.status(400).send("Problem name already exists!");
         });
 });
 
