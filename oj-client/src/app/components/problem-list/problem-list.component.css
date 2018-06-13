@@ -1,0 +1,28 @@
+
+.label.difficulty {
+  min-width: 65px;
+  margin-right: 10px;
+}
+
+.title{
+  font-size: 1.2em;
+}
+
+.difficulty-easy{
+  background-color: blue;
+}
+
+.difficulty-medium{
+  background-color: green;
+}
+
+.difficulty-hard{
+  background-color: red;
+}
+
+.difficulty-super{
+  background-color: darkred;
+}
+
+
+
