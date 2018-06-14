@@ -300,8 +300,9 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 var EditorComponent = (function () {
-    function EditorComponent(collaboration, route) {
+    function EditorComponent(collaboration, data, route) {
         this.collaboration = collaboration;
+        this.data = data;
         this.route = route;
         this.languages = ['Java', 'C++', 'Python'];
         this.language = 'Java'; // default
@@ -348,17 +349,18 @@ var EditorComponent = (function () {
     EditorComponent.prototype.resetEditor = function () {
         this.editor.getSession().setMode('ace/mode/' + this.language.toLowerCase());
         this.editor.setValue(this.defaultContent[this.language]);
-        // this.output = '';
+        this.output = '';
     };
     EditorComponent.prototype.submit = function () {
+        var _this = this;
         var userCode = this.editor.getValue();
         console.log(userCode);
-        // let data = {
-        //   user_code: userCode,
-        //   lang: this.language.toLowerCase()
-        // };
-        // this.data.buildAndRun(data)
-        //   .then(res => this.output = res.text);
+        var data = {
+            user_code: userCode,
+            lang: this.language.toLowerCase()
+        };
+        this.data.buildAndRun(data)
+            .then(function (res) { return _this.output = res.text; });
     };
     EditorComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
@@ -366,8 +368,9 @@ var EditorComponent = (function () {
             template: __webpack_require__(699),
             styles: [__webpack_require__(693)]
         }),
-        __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Inject */])('collaboration')), 
-        __metadata('design:paramtypes', [Object, (typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _a) || Object])
+        __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Inject */])('collaboration')),
+        __param(1, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Inject */])('data')), 
+        __metadata('design:paramtypes', [Object, Object, (typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _a) || Object])
     ], EditorComponent);
     return EditorComponent;
     var _a;
@@ -598,6 +601,15 @@ var DataService = (function () {
             .toPromise()
             .then(function (res) {
             _this.getProblems();
+            return res.json();
+        }).catch(this.handleError);
+    };
+    DataService.prototype.buildAndRun = function (data) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'content-type': 'application/json' });
+        return this.http.post("/api/v1/build_and_run", data, headers)
+            .toPromise()
+            .then(function (res) {
+            console.log(res);
             return res.json();
         }).catch(this.handleError);
     };

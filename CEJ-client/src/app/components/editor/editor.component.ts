@@ -39,6 +39,7 @@ export class EditorComponent implements OnInit {
   };
 
   constructor(@Inject('collaboration') private collaboration,
+              @Inject('data') private data,
               private route: ActivatedRoute) {
 
   }
@@ -86,17 +87,17 @@ export class EditorComponent implements OnInit {
   resetEditor(): void {
     this.editor.getSession().setMode('ace/mode/' + this.language.toLowerCase());
     this.editor.setValue(this.defaultContent[this.language]);
-    // this.output = '';
+    this.output = '';
   }
 
   submit(): void {
     let userCode = this.editor.getValue();
     console.log(userCode);
-    // let data = {
-    //   user_code: userCode,
-    //   lang: this.language.toLowerCase()
-    // };
-    // this.data.buildAndRun(data)
-    //   .then(res => this.output = res.text);
+    let data = {
+      user_code: userCode,
+      lang: this.language.toLowerCase()
+    };
+    this.data.buildAndRun(data)
+      .then(res => this.output = res.text);
   }
 }
