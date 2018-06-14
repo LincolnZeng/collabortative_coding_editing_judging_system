@@ -66,7 +66,7 @@ export class CollaborationService {
     this.collaborationSocket.emit("cursorMove", cursor);
   }
 
-  restoreBuffer(): void {
+  restoreBuffer(): void {//only send request to server for update
     this.collaborationSocket.emit("restoreBuffer");
   }
 }
