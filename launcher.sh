@@ -1,5 +1,4 @@
-echo "============================================"
-read -p "first open docker in (Mac OSX):Application/Docke/Docker Quickstart Terminal" PRESSKEY
+(docker-machine env default 2>&1 || docker-machine start default) && eval $(docker-machine env default)
 
 fuser -k 3000/tcp
 fuser -k 5000/tcp
@@ -17,7 +16,7 @@ pip install -r requirements.txt
 eval "$(docker-machine env default)"
 python executor_server.py
 
-echo "============================================"
+echo "==================================="
 read -p "PRESS [ENTER] TO TERMINATE PROCESS." PRESSKEY
 
 fuser -k 3000/tcp
