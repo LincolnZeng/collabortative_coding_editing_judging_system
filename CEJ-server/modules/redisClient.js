@@ -34,5 +34,5 @@ module.exports = {
     set: set,
     expire: expire,
     quit: quit,
-    redisPrint: redis.Print
+    redisPrint: redis.print
 }
